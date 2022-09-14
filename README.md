@@ -33,77 +33,67 @@ Suponha que o PO já tenha realizado algumas reuniões com o cliente e possua as
 <li>Um pouco encabulado, o PO fingiu que entendeu e passou a falar com outras áreas da empresa. Ele obteve os resultados a seguir.</li>
 </ul>
  
+<b>Área de TI do cliente:</b>
+<ul>
+ <li>O ERP possui uma API que lista todos os produtos e a tabela de preços.</li>
+ <li>O e-commerce é feito em Magento e também possui API para consultar os produtos.</li>
+ <li>Não sabem nada sobre LGPD.</li>
+</ul>
 
+<b>Área de Marketing:</b>
 
+<ul>
+ <li>Desenvolverão um protótipo conceitual.</li>
+ <li>Entregarão a você toda a identidade visual.</li>
+ <li>Já desenharam a jornada do cliente privilegiando a usabilidade.</li>
+ <li>Você tentou agendar uma semana de trabalho para aplicar o método Design Sprint, mas o diretor de marketing foi taxativo: “Já fizemos esse levantamento usando outras técnicas e estamos meio sem tempo para repetir o processo”.</li>
+ <li>O público-alvo é composto de jovens entre 18 e 29 anos.</li>
+ <li>Dentre as muitas telas apresentadas pela equipe de UX, como cadastro de usuários, edição do perfil, lista de categorias de produtos, lista de produtos, pedido, check-out, cadastro de informações de pagamentos, repetir pedido, buscar produtos, login com redes sociais etc.</li>
+</ul>
 
+<b>Área Jurídica:</b>
 
- 
+<ul>
+ <li>Conhecem muito de LGPD e estão fazendo um excelente trabalho na empresa.</li>
+ <li>Exigem que o sistema esteja 100% aderente à LGPD.</li>
+</ul> 
 
- Área de TI do cliente:
+<b>Área Financeira:</b>
 
- 
+<ul>
+ <li>A empresa já possui uma negociação com os meios de pagamento Mercado Pago e Cielo, por isso o sistema a ser desenvolvido precisa estar integrado a eles.</li>
+ <li>Uma fala do CFO que chamou a sua atenção foi: “Essa integração é simples. Outros fornecedores já fizeram, porém há o problema de que o Mercado Pago tem recusado muitos pagamentos de clientes, portanto, quando isso acontecer, o sistema deve tentar fazer a requisição e a aprovação de pagamento pela Cielo. É fácil, vocês são bons e não terão problemas, certo?”.</li>
+</ul>
 
-O ERP possui uma API que lista todos os produtos e a tabela de preços.
-O e-commerce é feito em Magento e também possui API para consultar os produtos.
-Não sabem nada sobre LGPD.
- 
+</br> <h4>TAREFA</h4>
 
-Área de Marketing:
+<p>De acordo com as necessidades, foram identificadas as seguintes histórias de usuário pelo PO.</p>
 
- 
-
-Desenvolverão um protótipo conceitual.
-Entregarão a você toda a identidade visual.
-Já desenharam a jornada do cliente privilegiando a usabilidade.
-Você tentou agendar uma semana de trabalho para aplicar o método Design Sprint, mas o diretor de marketing foi taxativo: “Já fizemos esse levantamento usando outras técnicas e estamos meio sem tempo para repetir o processo”.
-O público-alvo é composto de jovens entre 18 e 29 anos.
-Dentre as muitas telas apresentadas pela equipe de UX, como cadastro de usuários, edição do perfil, lista de categorias de produtos, lista de produtos, pedido, check-out, cadastro de informações de pagamentos, repetir pedido, buscar produtos, login com redes sociais etc., a tela abaixo conseguiu tangibilizar um pouco melhor a ideia.
-
-
-Área Jurídica:
-
- 
-
-Conhecem muito de LGPD e estão fazendo um excelente trabalho na empresa.
-Exigem que o sistema esteja 100% aderente à LGPD.
- 
-
-Área Financeira:
-
- 
-
-A empresa já possui uma negociação com os meios de pagamento Mercado Pago e Cielo, por isso o sistema a ser desenvolvido precisa estar integrado a eles.
-Uma fala do CFO que chamou a sua atenção foi: “Essa integração é simples. Outros fornecedores já fizeram, porém há o problema de que o Mercado Pago tem recusado muitos pagamentos de clientes, portanto, quando isso acontecer, o sistema deve tentar fazer a requisição e a aprovação de pagamento pela Cielo. É fácil, vocês são bons e não terão problemas, certo?”.
- 
-
-           TAREFA
-
-De acordo com as necessidades, foram identificadas as seguintes histórias de usuário pelo PO.
-
-Área de TI do cliente:
+<b>Área de TI do cliente:</b>
 
 Eu, COMO Área de TI do cliente, QUERO que o app conecte na minha API do ERP PARA exibir a lista de todos os produtos e a tabela de preços.
 
 Eu, COMO Área de TI do cliente, QUERO que o app conecte a API do e-commerce PARA estar totalmente sincronizada com o site.
 
-Área de Marketing:
+<b>Área de Marketing:</b>
 
 Eu, COMO Área de Marketing, PRECISO que o app seja baseado no protótipo conceitual PARA garantirmos a nossa identidade visual.
 
 Eu, COMO Área de Marketing, GOSTARIA que as telas fossem desenvolvidas seguindo a jornada do cliente PARA privilegiarmos a usabilidade.
 
-Área Jurídica:
+<b>Área Jurídica:</b>
 
 Eu, COMO Área Jurídica, PRECISO que o sistema esteja 100% aderente à LGPD PARA atender as normas da Lei Geral de Proteção de Dados Pessoais.
 
-Área Financeira
+<b>Área Financeira:</b>
 
 Eu, COMO Área Financeira, QUERO que o sistema esteja integrado com os meios de pagamento Mercado Pago e Cielo PARA atendermos a negociação que realizamos com os dois.
 
 Eu, SENDO CFO, PRECISO que o pagamento pela Cielo esteja sempre disponível PORQUE eventualmente o Mercado Pago pode recusar muitos pagamentos de clientes.
 
-Com base nas histórias de usuário, a sua tarefa será elaborar um Sprint Backlog (História Técnica) do produto contendo no mínimo 5 e no máximo 10 atividades técnicas de desenvolvimento.
+</br> <h4>FAÇA</h4>
+<p>Com base nas histórias de usuário, a sua tarefa será elaborar um Sprint Backlog (História Técnica) do produto contendo no mínimo 5 e no máximo 10 atividades técnicas de desenvolvimento.</p>
 
-As atividades podem abranger tanto Front-end como Back-end.
+<p>As atividades podem abranger tanto Front-end como Back-end.</p>
 
-Ordene as atividades de acordo com o seu entendimento de priorização. Você pode entregar um documento de texto ou uma apresentação em slides, elaborados no aplicativo de sua preferência.
+<p>Ordene as atividades de acordo com o seu entendimento de priorização. Você pode entregar um documento de texto ou uma apresentação em slides, elaborados no aplicativo de sua preferência.</p>
