@@ -97,3 +97,5 @@ Eu, SENDO CFO, PRECISO que o pagamento pela Cielo esteja sempre disponível PORQ
 <p>As atividades podem abranger tanto Front-end como Back-end.</p>
 
 <p>Ordene as atividades de acordo com o seu entendimento de priorização. Você pode entregar um documento de texto ou uma apresentação em slides, elaborados no aplicativo de sua preferência.</p>
+
+> <b><a href="https://github.com/brunoesm07/Enterprise-Connection-builtcode/blob/main/Entrega%20Grupo%20%2066%20-%20Enterprise%20Connection%20-%20BuiltCode.pdf">Atividade entregue</a></b>
